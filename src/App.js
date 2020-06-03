@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './App.css'
+import file from './assets/profile.jpg';
+import TechList from './components/TechLIst';
 function App(){
-  return(
-    <h1>Hello RocketSeat</h1>
-  );
+  return <TechList />
 }
 
 export default App;
